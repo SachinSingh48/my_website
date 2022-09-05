@@ -16,6 +16,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
@@ -36,4 +37,12 @@ section{
     background-image:url(./images/bg-left.png);
     background-repeat: no-repeat;
     background-size: 5%;
+}
+.connect-button{
+    text-decoration: none;
+    background-image: -moz-linear-gradient(#f09952, #f5741e );
+    padding: 10px 40px;
+    border-radius: 50px;
+    font-weight: 700;
+    color: white;
 }
