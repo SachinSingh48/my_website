@@ -11,10 +11,10 @@ body{
 h1{
     font-size: 60px;
 }
-.red-color{
+.blue-color{
     color: #70bcf9;
 }
-section{
+.display-flex{
     display: flex;
     margin-bottom: 150px;
 }
@@ -45,4 +45,27 @@ section{
     border-radius: 50px;
     font-weight: 700;
     color: white;
+}
+.shadow{
+    box-shadow: 10px 10px 40px gray;
+     margin-left: 5%;
+     margin-right: 5%;
+    width: 40%;
+    padding: 20px;
+    border-radius: 10px;
+}
+#left-design-1{
+    border-image: linear-gradient(blue, cyan);
+    border-left: 10px solid;
+    border-image-slice: 1;
+
+}
+#left-design-2{
+    border-image: linear-gradient(#c45a03, #f1a069);
+    border-left: 10px solid;
+    border-image-slice: 1;
+
+}
+footer p{
+   text-align: center;
 }
